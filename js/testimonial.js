@@ -1,27 +1,35 @@
 const testimonials = [
   {
-    name: "Viezh, Robert",
+    name: "Rajat",
     profile_pic_path: "media/people/person-1.svg",
-    location: "Warsaw, Poland",
-    rating: "4.5",
+    location: "Kottayam, India",
+    rating: "5",
     message:
-      "Wow... I am very happy with this VPN. It turned out to be more than my expectations and so far there have been no problems. LaslesVPN is the best",
+      "Wow... I am very happy with this VPN. It turned out to be more than my expectations and so far there have been no problems. VelocityVPN is the best",
   },
   {
-    name: "Yessica, Christy",
+    name: "Seby",
     profile_pic_path: "media/people/person-2.svg",
-    location: "Shanxi, China",
-    rating: "4.5",
+    location: "Bangalore, India",
+    rating: "5",
     message:
       "I like it because I can connect with high speeds even when I travel far",
   },
   {
-    name: "Kim Young, Jou",
+    name: "Martin",
     profile_pic_path: "media/people/person-3.svg",
-    location: "Seoul, South Korea",
-    rating: "4.5",
+    location: "Bangalore, India",
+    rating: "5",
     message:
       "Great product to have for my business that currently requires a virtual private network that has high security",
+  },
+  {
+    name: "Sasi",
+    profile_pic_path: "media/people/person-3.svg",
+    location: "Chennai, India",
+    rating: "5",
+    message:
+      "The speeds are amazing",
   },
 ]
 
