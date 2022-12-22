@@ -5,7 +5,7 @@ const testimonials = [
     location: "Kottayam, India",
     rating: "5",
     message:
-      "Wow... I am very happy with this VPN. It turned out to be more than my expectations and so far there have been no problems. VelocityVPN is the best",
+      "Wow! I am very happy with this VPN. It has exceeded my expectations and so far there have been no problems. VelocityVPN is the best!",
   },
   {
     name: "Seby",
@@ -13,7 +13,7 @@ const testimonials = [
     location: "Bangalore, India",
     rating: "5",
     message:
-      "I like it because I can connect with high speeds even when I travel far",
+      "The convenience and speed is supreme! I can also watch Netflix and other media.",
   },
   {
     name: "Martin",
@@ -21,7 +21,7 @@ const testimonials = [
     location: "Bangalore, India",
     rating: "5",
     message:
-      "Great product to have for my business that currently requires a virtual private network that has high security",
+      "I can stream in 4K without any buffering! Awesome!",
   },
   {
     name: "Sasi",
@@ -29,7 +29,7 @@ const testimonials = [
     location: "Chennai, India",
     rating: "5",
     message:
-      "The speeds are amazing",
+      "The speeds are amazing! Unblocks everything!",
   },
 ]
 
@@ -42,9 +42,9 @@ testimonials.forEach((testimonial, i) => {
   testimonialItem.innerHTML = `
     <div class="person-info-rating">
     <div class="person-info">
-        <div class="person-icon-ctr">
+        <!--  <div class="person-icon-ctr">
         <img src="${testimonial.profile_pic_path}" />
-        </div>
+        </div>-->
         <div class="person-info-text">
         <p class="person-name">${testimonial.name}</p>
         <p class="person-location">${testimonial.location}</p>
@@ -58,7 +58,7 @@ testimonials.forEach((testimonial, i) => {
     </div>
     </div>
     <div class="person-testimonial">
-    <p>"${testimonial.message}".</p>
+    <p>"${testimonial.message}"</p>
     </div>
     `
   testimonialItems.appendChild(testimonialItem)
