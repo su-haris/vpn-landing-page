@@ -16,6 +16,14 @@ const testimonials = [
       "The convenience and speed is supreme! I can also watch Netflix and other media.",
   },
   {
+    name: "Shine",
+    profile_pic_path: "media/people/person-3.svg",
+    location: "Dubai, UAE",
+    rating: "5",
+    message:
+      "I can make WhatsApp call without issues now! The video quality is great as well!",
+  },
+  {
     name: "Martin",
     profile_pic_path: "media/people/person-3.svg",
     location: "Bangalore, India",
